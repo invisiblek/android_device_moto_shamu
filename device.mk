@@ -27,6 +27,10 @@ PRODUCT_COPY_FILES += \
     device/moto/shamu/fstab.shamu:root/fstab.shamu \
     device/moto/shamu/ueventd.shamu.rc:root/ueventd.shamu.rc
 
+# TWRP
+PRODUCT_COPY_FILES += \
+    device/moto/shamu/twrp.fstab:recovery/root/etc/twrp.fstab
+
 # Input device files for shamu
 PRODUCT_COPY_FILES += \
     device/moto/shamu/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
